@@ -312,7 +312,7 @@ export default function App() {
                         <button
                             onClick={removeImg}
                             disabled={!showImg}
-                            className="btn btn-lg btn-primary text-nowrap"
+                            className="btn btn-lg btn-primary text-nowrap mb-3"
                         >
                             Remove Img
                         </button>
@@ -321,7 +321,7 @@ export default function App() {
                         <button
                             onClick={addImg}
                             disabled={!add}
-                            className="btn btn-lg btn-secondary text-nowrap"
+                            className="btn btn-lg btn-secondary text-nowrap mb-3"
                         >
                             Add Img To Collection
                         </button>
@@ -330,7 +330,7 @@ export default function App() {
                         <button
                             onClick={checkImg}
                             disabled={!check}
-                            className="btn btn-lg btn-success text-nowrap"
+                            className="btn btn-lg btn-success text-nowrap mb-3"
                         >
                             Check Img
                         </button>
@@ -359,7 +359,7 @@ export default function App() {
                     className="w-50 d-flex justify-content-evenly"
                     id="personNameForm"
                 >
-                    <Form.Group controlId="formName col-lg-8 col-md-6">
+                    <Form.Group controlId="formName col-lg-8 col-md-6" className="mx-3">
                         <Form.Control
                             type="text"
                             placeholder="Enter Name of Person"
@@ -369,7 +369,7 @@ export default function App() {
                         />
                     </Form.Group>
                     <button
-                        className="btn btn-warning col-lg-4 col-md-6"
+                        className="btn btn-warning col-lg-4 col-md-6 mb-3"
                         type="submit"
                         disabled={!addName}
                         onClick={addImgToStorage}

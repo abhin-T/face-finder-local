@@ -51,3 +51,15 @@ body {
     position:relative;
     border: 2px solid rgb(255,193,7);
 }
+
+@media screen and (max-width: 600px) {
+    #imgUploadBox {
+        width: 75% !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #imgUploadBox {
+        width: 50% !important;
+    }
+}
